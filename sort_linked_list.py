@@ -67,3 +67,7 @@ class Solution:
             dummy = dummy.next
 
         return head
+    
+sol = Solution()
+head = ListNode(4, ListNode(2, ListNode(1, ListNode(3))))
+print(sol.sortList(head))
